@@ -764,25 +764,30 @@ button.number {
     right: -30px;
 }
 .rulesandnext {
-    bottom: -205px;
+    /* bottom: -200px; */
     position: absolute;
+    margin-bottom: -128px;
 }
     
     /*RESULT GEN*/
     .mainresbox {
         display: none;
         width: 100%;
+        margin-top: -102px;
+        transform: translate(10%, 4px);
     }
     
     .resultgen {
         width: 100%;
+        position: relative;
     }
     
     .resultgenchoice {
         display: flex;
         justify-content: space-between;
         margin: 10px;
-        flex-direction: column;
+        flex-direction: row;
+        text-align: center;
     }
     
     .resultgenchoice .rc {
@@ -800,23 +805,28 @@ button.number {
     /*RESULT GEN CIRCLE ANIMATION*/
     .circleanimate {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: auto;
         width: auto;
         position: relative;
-        flex-direction: column;
+        flex-direction: row;
     
+    }
+
+    #yourchoice {
+        margin: 12px 114px 0px -50px;
     }
     
     
     .pulse {
-        width: 150px;
-        height: 150px;
+        width: 112px;
+        height: 112px;
         border-radius: 50%;
         background-color: transparent;
         border: 28px solid transparent;
-        position: sticky;
+        position: relative;
+        transform: translate(64%, 19px);
     }
     
     
@@ -824,8 +834,8 @@ button.number {
         position: absolute;
         top: 0%;
         border: 28px solid rgb(237, 12, 8);
-        width: 150px;
-        height: 150px;
+        width: 112px;
+        height: 112px;
         z-index: 1;
         border-radius: 50%;
         background-color: #fff;
@@ -833,6 +843,9 @@ button.number {
         background-repeat: no-repeat;
         background-position: center;
     
+    }
+    .onepulse {
+        transform: translate(-204%, 10%);
     }
     
     .addBox.hidden {
@@ -842,6 +855,7 @@ button.number {
         align-items: center;
         align-self: center;
         justify-content: center;
+        transform: translate(-14%, 200%);
     }
     
     .addBox #status {
@@ -852,6 +866,7 @@ button.number {
         font-weight: 800;
         line-height: normal;
         letter-spacing: 3.9px;
+        white-space: nowrap;
     }
     
     .addBox #status1 {
@@ -863,6 +878,7 @@ button.number {
         font-weight: 800;
         line-height: normal;
         letter-spacing: 2.5px;
+        white-space: nowrap;
     }
     
     #addBox {
@@ -885,8 +901,8 @@ button.number {
         position: absolute;
         top: 0%;
         border: 28px solid rgb(8, 237, 8);
-        width: 150px;
-        height: 150px;
+        width: 112px;
+        height: 112px;
         z-index: 1;
         border-radius: 50%;
         background-color: #fff;
@@ -907,8 +923,8 @@ button.number {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 150px;
-        height: 150px;
+        width: 112px;
+        height: 112px;
         border: 28px solid green;
         background-color: green;
         border-radius: inherit;
@@ -919,8 +935,8 @@ button.number {
         position: absolute;
         top: 0%;
         right: 0%;
-        width: 150px;
-        height: 150px;
+        width: 112px;
+        height: 112px;
         border: 28px solid green;
         background-color: green;
         border-radius: inherit;
