@@ -648,12 +648,12 @@ button.number {
 .rulebook {
     display: grid;
     place-items: center;
-    height: 202px;
+    height: 168px;
     width: 296px;
     background-color: #004429;
     color: #FFF;
     border: 4px solid white;
-    border-radius: 10%;
+    border-radius: 20px;
     margin-bottom: 67px;
     position: relative;
     padding: 17px 16px 20px 38px;
@@ -663,7 +663,7 @@ button.number {
 
     .rulebook ul li {
         text-align: justify;
-        font-size: 14px;
+        font-size: 11.5px;
         margin-bottom: -6px;
         list-style-type: square;
     }
@@ -698,7 +698,7 @@ button.number {
     /* border-bottom: 100px solid gray; */
     border-left: 100px solid transparent;
     position: relative;
-    transform: translate(37%, 50%);
+    transform: translate(28%, -4%);
 }
 .triangle:before{
     content: "";
@@ -722,7 +722,7 @@ display: none;
 
 #kaka {
     display: flex;
-    margin: -73px 0px 0px 0px;
+    margin: -136px 0px 0px 0px;
     
 }
 
@@ -735,7 +735,7 @@ button.number {
     color: black;
     font-weight: bold;
     border-radius: 50%;
-    margin: 0px 31px;
+    margin: 2px 22px;
     position: relative;
     background-color: #FFF;
 }
@@ -764,7 +764,8 @@ button.number {
     right: -30px;
 }
 .rulesandnext {
-    bottom: -230px;
+    bottom: -205px;
+    position: absolute;
 }
     
     /*RESULT GEN*/
