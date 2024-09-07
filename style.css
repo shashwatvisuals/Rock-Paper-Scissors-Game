@@ -798,7 +798,7 @@ button.number {
         font-weight: 600;
         line-height: normal;
         letter-spacing: 1.7px;
-        margin: 10px 30px;
+        margin: 10px 58px;
         position: relative;
     }
     
@@ -820,13 +820,13 @@ button.number {
     
     
     .pulse {
-        width: 112px;
-        height: 112px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         background-color: transparent;
         border: 28px solid transparent;
         position: relative;
-        transform: translate(64%, 19px);
+        transform: translate(0%, 19px);
     }
     
     
@@ -834,8 +834,8 @@ button.number {
         position: absolute;
         top: 0%;
         border: 28px solid rgb(237, 12, 8);
-        width: 112px;
-        height: 112px;
+        width: 60px;
+        height: 60px;
         z-index: 1;
         border-radius: 50%;
         background-color: #fff;
@@ -845,7 +845,7 @@ button.number {
     
     }
     .onepulse {
-        transform: translate(-204%, 10%);
+        transform: translate(-180%, 10%);
     }
     
     .addBox.hidden {
@@ -901,8 +901,8 @@ button.number {
         position: absolute;
         top: 0%;
         border: 28px solid rgb(8, 237, 8);
-        width: 112px;
-        height: 112px;
+        width: 60px;
+        height: 60px;
         z-index: 1;
         border-radius: 50%;
         background-color: #fff;
@@ -923,8 +923,8 @@ button.number {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 112px;
-        height: 112px;
+        width: 60px;
+        height: 60px;
         border: 28px solid green;
         background-color: green;
         border-radius: inherit;
@@ -935,8 +935,8 @@ button.number {
         position: absolute;
         top: 0%;
         right: 0%;
-        width: 112px;
-        height: 112px;
+        width: 60px;
+        height: 60px;
         border: 28px solid green;
         background-color: green;
         border-radius: inherit;
